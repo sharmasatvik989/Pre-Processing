@@ -1,4 +1,4 @@
-# Word-Scan
+# Pre-Processing
 
 1. We will simplify many of the otherwise interesting details,    but try to emphasize many of the issues and interesting approaches to searching text.   Almost all original, source documents need to be “cleaned” (may include removing     pictures, font details, pagination, and similar.)    For this assignment ALL non ASCII information will be removed.   (Note, we will assume that docs are in English, but Spanish, French and similar    languages are not difficult to extend processing, Chinese is more difficult.) 
 
