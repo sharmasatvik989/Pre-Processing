@@ -58,12 +58,12 @@ def searching(filewords,filename,filetarget):
             arr_w[i].write(line+"\n")
             
 
-        #text = files.read()
-        #text = text.lower().replace(",","").replace("_","").replace(".","").replace("\"","").replace("'","").replace("-","").replace("!","").replace(";","").replace(")","").replace("(","").replace("-","").replace("?","").replace("/","").replace("*","").replace(":","")
+        text = files.read()
+        text = text.lower().replace(",","").replace("_","").replace(".","").replace("\"","").replace("'","").replace("-","").replace("!","").replace(";","").replace(")","").replace("(","").replace("-","").replace("?","").replace("/","").replace("*","").replace(":","")
         
         arr_w[i].close()
         files.close()
-        #print(" Lines where the word is found \n")
+        print(" Lines where the word is found \n")
         i+=1
 
     arr_w = [open(fileName_w[0],"r",encoding="UTF=8"),
